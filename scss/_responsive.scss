@@ -30,7 +30,7 @@
 
   .projects {
     &_bio-image {
-      height: 40vh;
+      height: 30vh;
     }
 
     &_items {
@@ -43,24 +43,24 @@
   }
 
   .contact_list {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
   }
 }
 
 @include media-lg {
   .projects {
     &_items {
-      grid-template-columns: repeat(3, 1fr);
+      grid-template-columns: repeat(2, 1fr);
     }
   }
 
   .contact_list {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(1, 1fr);
   }
 }
 
-@include media-xl {
-  .projects_bio-image {
-    height: 50vh;
-  }
-}
+// @include media-xl {
+//   .projects_bio-image {
+//     height: 50vh;
+//   }
+// }

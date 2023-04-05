@@ -5,12 +5,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background:
-    linear-gradient(to right,
-      rgba($primary-color, 0.9),
-      rgba($primary-color, 0.3)),
-    url('../dist/img/model-1.jpg') center top;
-  background-size: cover;
+  background: linear-gradient(to right, #3b3737, #534d4d, #7a6f6f, #7a6f6f, #534d4d, #3b3737);
 
   h2 {
     font-size: 3rem;
